@@ -1,0 +1,13 @@
+body {
+	direction: rtl;
+}
+.Header{
+	background-color: yellow;
+	height: 20%;
+}
+.footer{
+	background-color: red;
+}
+.text{
+	background-color: blue;
+}
