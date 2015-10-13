@@ -8,11 +8,16 @@
 html{
 	width: 100%;
 	height: 100%;
+	min-height: 100%;
 }
 body{
 	width: 100%;
 	height: 100%;
 	font-size:14px;
+	min-height:100%;
+	background-image: url("images/Elegant_Background-2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 #container{
 	width:90%;
@@ -56,9 +61,13 @@ ul.sub_menu> li{
 li:hover > ul.sub_menu{
 	display: block;
 }
+li:hover{
+	border-bottom: 0.5;
+	color:#98FB98;
+	border-bottom-style: solid;
+}
 .main_area{
 	height: 80%;
-	background-color: red;
 }
 .footer{
 	height: 10%;
@@ -71,13 +80,12 @@ div.footer{
 	flax-wrap:wrap;
 	
 }
-div#YoutubeBtn{
+/*div#YoutubeBtn{
 	background-image: url("images/youtube.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	width:4%;
 	height:72%;
-	display:inline-flex;	
+	display:inline-block;	
 	margin-top:1%;
 }
 	
@@ -87,11 +95,29 @@ div#FacebookBtn{
 	background-size: 100% 100%;
 	width:4%;
 	height:72%;
-	display:inline-flex;	
+	display:inline-block;	
 	margin-top:1%;
+}*/
+img#face{
+	height: 5%;
 }
+
+	
+
+/*===============Contact Form================*/
+form{
+	width: 44%;
+	height:85%; 
+	border: 5PX solid black;
+	margin-top: 8%;
+    margin-right: 28%;
+	opacity: 0.5;
+   	border-radius: 27%;
 }
+.form1{
+	margin: auto;	
+	display:block;
 	
-	
+}
 	
 
