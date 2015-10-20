@@ -41,7 +41,7 @@ li{
 	margin-right: 5%;
 	margin-top: 2%
 }
-a{
+li > a{
 	text-decoration: none;
 	color:black;
 	font-family: "Alef";
@@ -90,16 +90,57 @@ img#Youtube{
 	display: inline-block;
 }
 
-
-/*===============Contact Form================*/
-form{
-	width: 60%;
-	margin-right:40%	;
+/*-------------------Main Eria--------------*/
+h2{
+	
+	font-family: "Alef";
+	font-size:225%;
+	text-align: center;
+	padding-top: 2%;
 }
-.form1{
+h4{
+	font-family: "Alef";
+	font-size:142%;
+	text-align: center;
+}
+div.box123{
+	display:inline-block;
+	width:22%;
+	height: 80%;
+	/*---------not responsiv*/
+	border-width: 1px;
+	/*-----------------------------*/
 	margin-top:3%;
+	margin-right:5%; 
+	padding:2%; 
+	font-family: "Alef";
+	border-radius: 23%;
 }
-#Pname{
-	margin-top: 14%;
+div#box2 > img{
+	padding-right: 27%; 
 }
-
+	
+ img#new{
+	margin-right: 27%;
+}
+img#help{
+	margin-right: 28%;
+	/* ------------not responsiv--------------*/
+	height:108px;
+	/*----------------*/
+}
+div#box1{
+	
+	border-style: double;
+	background-color: #E6E600;
+}
+div#box2{
+	
+	border-style: double;
+	background-color: #66E0FF;
+}
+div#box3{
+	
+	border-style: double;
+	background-color: #FF8566;
+}
